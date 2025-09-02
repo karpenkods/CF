@@ -661,14 +661,14 @@ $cms->landing(1686, 3051); //topsykey ?>
                       </div>
                     </div>
                   </div>
-                  <div
+                  <!-- <div
                     class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-288fd446"
                     data-id="288fd446" data-element_type="column">
                     <div class="elementor-column-wrap elementor-element-populated">
                       <div class="elementor-widget-wrap"></div>
                     </div>
-                  </div>
-                  <div
+                  </div> -->
+                  <!-- <div
                     class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-7568a5e8"
                     data-id="7568a5e8" data-element_type="column">
                     <div class="elementor-column-wrap elementor-element-populated">
@@ -693,7 +693,7 @@ $cms->landing(1686, 3051); //topsykey ?>
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <div
                     class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-5a7f4f87"
                     data-id="5a7f4f87" data-element_type="column">
@@ -1039,8 +1039,8 @@ $cms->landing(1686, 3051); //topsykey ?>
                                       data-id="bd61b95" data-element_type="widget" data-widget_type="image.default">
                                       <div class="elementor-widget-container">
                                         <div class="elementor-image">
-                                          <img decoding="async" width="344" height="172" src="img/rak.webp"
-                                            class="attachment-large size-large wp-image-2352" alt loading="lazy" srcset="img/rak.jpg                                      img/rak.jpg        344wimg/Schermata-2022-04-13-alle-19.24.04-1.webp/Schermata-2022-04-13-alle-19.24.04-1.webp 300w
+                                          <img decoding="async" width="344" height="172" src="img/rak-1.webp"
+                                            class="attachment-large size-large wp-image-2352" alt loading="lazy" srcset="img/rak-1.webp                                      img/rak-1.webp        344wimg/Schermata-2022-04-13-alle-19.24.04-1.webp/Schermata-2022-04-13-alle-19.24.04-1.webp 300w
                         " sizes="(max-width: 344px) 100vw, 344px" />
                                         </div>
                                       </div>
@@ -1247,7 +1247,7 @@ $cms->landing(1686, 3051); //topsykey ?>
                           data-id="3f5fa9d4" data-element_type="widget" data-widget_type="image.default">
                           <div class="elementor-widget-container">
                             <div class="elementor-image">
-                              <img decoding="async" src="img/product.webp" title="product" alt="product"
+                              <img decoding="async" src="img/product-2.webp" title="product" alt="product"
                                 loading="lazy" />
                             </div>
                           </div>

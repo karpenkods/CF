@@ -1051,12 +1051,14 @@ input:-moz-ui-invalid {
 }
 .helps__block {
   position: absolute;
-  left: 5%;
+  left: 0;
   top: 40%;
   width: 100%;
   height: 100%;
 }
 .helps__text {
+  position: relative;
+  z-index: 3;
   margin-bottom: 15px;
   line-height: 1.35;
 }
@@ -1194,6 +1196,8 @@ input:-moz-ui-invalid {
   margin: 0 auto;
 }
 .action__pack {
+  position: relative;
+  left: 5%;
   max-width: 375px;
   margin: 0 auto 20px;
 }
@@ -2223,6 +2227,7 @@ input:-moz-ui-invalid {
     font-size: 40px;
   }
 }
+
 @media (min-width: 768px) {
   .container {
     width: 768px;
@@ -3752,8 +3757,9 @@ input:-moz-ui-invalid {
 @media (min-width: 1220px) {
   .helps__block {
     display: block;
-    left: -5%;
-    top: 20%;
+    left: -15%;
+    top: 25%;
+    z-index: 1;
   }
   .container {
     width: 1220px;
@@ -4268,8 +4274,8 @@ input:-moz-ui-invalid {
 }
 @media (min-width: 1400px) {
   .helps__block {
-    left: 5%;
-    top: 20%;
+    left: -5%;
+    top: 25%;
   }
   .nav__item:first-child {
     margin-right: 75px;
@@ -4384,8 +4390,8 @@ input:-moz-ui-invalid {
 @media (min-width: 1620px) {
   .helps__block {
     position: absolute;
-    left: 5%;
-    top: 40%;
+    left: -5%;
+    top: 45%;
     width: 100%;
     height: 100%;
   }
