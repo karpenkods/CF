@@ -10,15 +10,11 @@ $cms->landing(1661, 3056); //topsykey ?>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <meta name="theme-color" content="#ffffff" />
-  <link rel="shortcut icon" type="image/x-icon" href="./icons/favicon.ico" />
-  <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="192x192" href="./icons/android-chrome-192x192.png" />
-  <link rel="icon" type="image/png" sizes="192x192" href="./icons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="48x48" href="./images/prod1.webp" />
 
   <title>Fastoren</title>
 
-  <link rel="stylesheet" href="css/new.css" />
+  <link rel="stylesheet" href="css/new2.css" />
   <link rel="stylesheet" href="css/styles.css" />
 
   <script src="js/scroll.js"></script>
@@ -452,8 +448,16 @@ $cms->landing(1661, 3056); //topsykey ?>
     <div class="helps__top bg animate-block">
       <div class="container">
         <h2 class="title helps__title">
-          <a class="blue-link" href="">Fastoren</a><span>ayuda a olvidar el dolor articular</span>
+          <a class="blue-link" href="">Fastoren</a><span> ayuda a olvidar el dolor articular</span>
         </h2>
+        <div class="helps__block">
+          <div class="action__pack">
+            <picture class="action__prod">
+              <source type="image/webp" srcset="images/prod1.webp" />
+              <img class="action__img" src="images/prod1.webp" alt="" width="300" height="749" />
+            </picture>
+          </div>
+        </div>
         <p class="helps__text">
           Los científicos se propusieron desarrollar una fórmula natural que
           fuera eficaz, pero sin los efectos secundarios que suelen tener
@@ -472,6 +476,7 @@ $cms->landing(1661, 3056); //topsykey ?>
           propiedades de la camphora, capsaicina y aceites esenciales de
           jengibre, romero y geranio.
         </p>
+
         <div class="helps__pack helps-pack helps__pack--double">
           <picture class="helps-pack__prod helps-pack-prod">
             <source type="image/webp" media="(min-width:1024px)" srcset="images/prod1.webp" />
