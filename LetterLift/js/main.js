@@ -32,7 +32,7 @@ function initGDPRBanner() {
     
     customizeBtn.addEventListener('click', function() {
         // Open cookie policy page
-        window.open('cookie-policy.html', '_blank');
+        window.open('cookie-policy.php', '_blank');
     });
     
     rejectBtn.addEventListener('click', function() {
@@ -78,7 +78,7 @@ function initPricingSwitcher() {
             }));
             
             // Redirect to checkout
-            window.location.href = 'checkout.html';
+            window.location.href = 'checkout.php';
         });
     });
 }

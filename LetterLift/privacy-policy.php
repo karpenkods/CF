@@ -17,7 +17,7 @@
             This website uses cookies to improve your experience and analyze
             traffic. By continuing to use the site, you agree to our use of
             cookies.
-            <a href="cookie-policy.html">Learn more</a>
+            <a href="cookie-policy.php">Learn more</a>
           </p>
         </div>
         <div class="gdpr-buttons">
@@ -33,7 +33,7 @@
       <div class="container">
         <div class="header-content">
           <div class="logo">
-            <a href="#home">
+            <a href="index.php">
               <img
                 src="icons/logo-header.webp"
                 alt="LetterLift"
@@ -43,15 +43,15 @@
           </div>
           <nav class="nav">
             <ul class="nav-list">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#how-it-works">How It Works</a></li>
-              <li><a href="#benefits">Benefits</a></li>
-              <li><a href="#pricing">Pricing</a></li>
-              <li><a href="about.html">About Us</a></li>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="index.php#how-it-works">How It Works</a></li>
+              <li><a href="index.php#benefits">Benefits</a></li>
+              <li><a href="index.php#pricing">Pricing</a></li>
+              <li><a href="about.php">About Us</a></li>
             </ul>
           </nav>
           <div class="header-cta">
-            <a href="#pricing" class="btn btn-primary">Get Started</a>
+            <a href="index.php#pricing" class="btn btn-primary">Get Started</a>
           </div>
         </div>
       </div>
@@ -62,7 +62,7 @@
       <div class="container">
         <div class="legal-content">
           <h1>Privacy Policy</h1>
-          <p class="last-updated">Last Updated: January 8, 2025</p>
+          <p class="last-updated">Last Updated: April 8, 2025</p>
 
           <div class="legal-section">
             <h2>1. Introduction</h2>
@@ -71,7 +71,7 @@
               "our"), is committed to protecting your privacy and personal
               information. This Privacy Policy explains how we collect, use,
               disclose, and safeguard your information when you visit our
-              website letterlift.com and use our services.
+              website <a href="https://letterliftapp.com">letterliftapp.com</a> and use our services.
             </p>
 
             <p>
@@ -480,9 +480,8 @@
             <h2>14. Effective Date</h2>
 
             <p>
-              This Privacy Policy is effective as of January 8, 2025, and
-              applies to all information collected by LetterLift on or after
-              this date.
+              This Privacy Policy is effective as of April 8, 2025, and applies
+              to all information collected by LetterLift on or after this date.
             </p>
           </div>
         </div>
@@ -494,40 +493,42 @@
       <div class="container">
         <div class="footer-content">
           <div class="footer-brand">
-            <img
-              src="icons/logo-footer.webp"
-              alt="LetterLift"
-              class="footer-logo"
-            />
+            <a href="index.php">
+              <img
+                src="icons/logo-footer.webp"
+                alt="LetterLift"
+                class="footer-logo"
+              />
+            </a>
             <p class="footer-slogan">Professional letters made simple</p>
           </div>
           <div class="footer-column">
             <h4>Links</h4>
             <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#how-it-works">How It Works</a></li>
-              <li><a href="#benefits">Benefits</a></li>
-              <li><a href="#pricing">Pricing</a></li>
-              <li><a href="about.html">About Us</a></li>
-              <!-- <li><a href="contact.html">Contact Us</a></li> -->
+              <li><a href="index.php">Home</a></li>
+              <li><a href="index.php#how-it-works">How It Works</a></li>
+              <li><a href="index.php#benefits">Benefits</a></li>
+              <li><a href="index.php#pricing">Pricing</a></li>
+              <li><a href="about.php">About Us</a></li>
+              <!-- <li><a href="contact.php">Contact Us</a></li> -->
             </ul>
           </div>
           <div class="footer-column">
             <h4>Legal</h4>
             <ul>
-              <li><a href="privacy-policy.html">Privacy Policy</a></li>
-              <li><a href="terms-of-service.html">Terms of Service</a></li>
-              <li><a href="cookie-policy.html">Cookie Policy</a></li>
-              <li><a href="refund-policy.html">Refund Policy</a></li>
+              <li><a href="privacy-policy.php">Privacy Policy</a></li>
+              <li><a href="terms-of-service.php">Terms of Service</a></li>
+              <li><a href="cookie-policy.php">Cookie Policy</a></li>
+              <li><a href="refund-policy.php">Refund Policy</a></li>
               <li>
-                <a href="cancel-subscription.html">Cancel Subscription</a>
+                <a href="cancel-subscription.php">Cancel Subscription</a>
               </li>
             </ul>
           </div>
           <div class="footer-column">
             <h4>Contact</h4>
             <ul>
-              <!-- <li><a href="contact.html">Contact Us</a></li> -->
+              <li><a href="contact.php">Contact Us</a></li>
               <li>
                 <a href="mailto:support@letterliftapp.com"
                   >support@letterliftapp.com</a

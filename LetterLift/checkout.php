@@ -18,7 +18,7 @@
             This website uses cookies to improve your experience and analyze
             traffic. By continuing to use the site, you agree to our use of
             cookies.
-            <a href="cookie-policy.html">Learn more</a>
+            <a href="cookie-policy.php">Learn more</a>
           </p>
         </div>
         <div class="gdpr-buttons">
@@ -33,7 +33,7 @@
       <div class="container">
         <div class="header-content">
           <div class="logo">
-            <a href="#home">
+            <a href="index.php">
               <img
                 src="icons/logo-header.webp"
                 alt="LetterLift"
@@ -43,15 +43,15 @@
           </div>
           <nav class="nav">
             <ul class="nav-list">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#how-it-works">How It Works</a></li>
-              <li><a href="#benefits">Benefits</a></li>
-              <li><a href="#pricing">Pricing</a></li>
-              <li><a href="about.html">About Us</a></li>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="index.php#how-it-works">How It Works</a></li>
+              <li><a href="index.php#benefits">Benefits</a></li>
+              <li><a href="index.php#pricing">Pricing</a></li>
+              <li><a href="about.php">About Us</a></li>
             </ul>
           </nav>
           <div class="header-cta">
-            <a href="#pricing" class="btn btn-primary">Get Started</a>
+            <a href="index.php#pricing" class="btn btn-primary">Get Started</a>
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@
     <main class="checkout-page">
       <div class="container">
         <div class="checkout-header">
-          <a href="index.html#pricing" class="back-link"
+          <a href="index.php#pricing" class="back-link"
             >&larr; Back to Pricing</a
           >
           <h1 class="checkout-title">Complete Your Order</h1>
@@ -94,7 +94,7 @@
             <div class="summary-footer">
               <div class="security-info">
                 <img src="icons/shield-icon.svg" alt="Shield" />
-                <p>Will appear as "letterlift.com" on your statement</p>
+                <p>Will appear as "<a href="https://letterliftapp.com">letterliftapp.com</a>" on your statement</p>
               </div>
               <div class="security-info">
                 <img src="icons/lock-icon.svg" alt="Lock" />
@@ -268,15 +268,15 @@
                 <input type="checkbox" id="terms-agree" required />
                 <label for="terms-agree"
                   >I agree to the
-                  <a href="terms-of-service.html" target="_blank"
+                  <a href="terms-of-service.php" target="_blank"
                     >Terms of Service</a
                   >,
-                  <a href="privacy-policy.html" target="_blank"
+                  <a href="privacy-policy.php" target="_blank"
                     >Privacy Policy</a
                   >,
-                  <a href="cookie-policy.html" target="_blank">Cookie Policy</a
+                  <a href="cookie-policy.php" target="_blank">Cookie Policy</a
                   >, and
-                  <a href="refund-policy.html" target="_blank">Refund Policy</a
+                  <a href="refund-policy.php" target="_blank">Refund Policy</a
                   >.</label
                 >
               </div>
@@ -308,40 +308,42 @@
       <div class="container">
         <div class="footer-content">
           <div class="footer-brand">
-            <img
-              src="icons/logo-footer.webp"
-              alt="LetterLift"
-              class="footer-logo"
-            />
+            <a href="index.php">
+              <img
+                src="icons/logo-footer.webp"
+                alt="LetterLift"
+                class="footer-logo"
+              />
+            </a>
             <p class="footer-slogan">Professional letters made simple</p>
           </div>
           <div class="footer-column">
             <h4>Links</h4>
             <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#how-it-works">How It Works</a></li>
-              <li><a href="#benefits">Benefits</a></li>
-              <li><a href="#pricing">Pricing</a></li>
-              <li><a href="about.html">About Us</a></li>
-              <!-- <li><a href="contact.html">Contact Us</a></li> -->
+              <li><a href="index.php">Home</a></li>
+              <li><a href="index.php#how-it-works">How It Works</a></li>
+              <li><a href="index.php#benefits">Benefits</a></li>
+              <li><a href="index.php#pricing">Pricing</a></li>
+              <li><a href="about.php">About Us</a></li>
+              <!-- <li><a href="contact.php">Contact Us</a></li> -->
             </ul>
           </div>
           <div class="footer-column">
             <h4>Legal</h4>
             <ul>
-              <li><a href="privacy-policy.html">Privacy Policy</a></li>
-              <li><a href="terms-of-service.html">Terms of Service</a></li>
-              <li><a href="cookie-policy.html">Cookie Policy</a></li>
-              <li><a href="refund-policy.html">Refund Policy</a></li>
+              <li><a href="privacy-policy.php">Privacy Policy</a></li>
+              <li><a href="terms-of-service.php">Terms of Service</a></li>
+              <li><a href="cookie-policy.php">Cookie Policy</a></li>
+              <li><a href="refund-policy.php">Refund Policy</a></li>
               <li>
-                <a href="cancel-subscription.html">Cancel Subscription</a>
+                <a href="cancel-subscription.php">Cancel Subscription</a>
               </li>
             </ul>
           </div>
           <div class="footer-column">
             <h4>Contact</h4>
             <ul>
-              <!-- <li><a href="contact.html">Contact Us</a></li> -->
+              <li><a href="contact.php">Contact Us</a></li>
               <li>
                 <a href="mailto:support@letterliftapp.com"
                   >support@letterliftapp.com</a
