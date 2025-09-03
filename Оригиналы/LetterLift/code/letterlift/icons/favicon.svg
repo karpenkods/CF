@@ -1,0 +1,10 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Letter envelope -->
+  <rect x="4" y="8" width="24" height="16" rx="2" fill="#37C99E" stroke="#2BA686" stroke-width="1"/>
+  <path d="M6 10 L16 16 L26 10" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Success checkmark -->
+  <circle cx="24" cy="12" r="4" fill="#D4F5EE"/>
+  <path d="M22 12 L23.5 13.5 L26 11" stroke="#37C99E" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+

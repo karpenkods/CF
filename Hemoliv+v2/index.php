@@ -12,7 +12,7 @@ $cms->landing( 1686, 3052 ); //topsykey ?>
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
 
-    <title>Hemoliv+</title>
+    <title>Hemoliv</title>
 
     <link rel="shortcut icon" href="files/product.webp" type="image/png" />
 
@@ -25,7 +25,7 @@ $cms->landing( 1686, 3052 ); //topsykey ?>
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-
+    <script src="js/scroll.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <?php $cms->
@@ -37,7 +37,7 @@ $cms->landing( 1686, 3052 ); //topsykey ?>
       <section class="wrapper">
         <div class="b1_list">
           <header>
-            <h3 class="lt0">CÁPSULAS HEMOLIV+</h3>
+            <h3 class="lt0"><a href="">CÁPSULAS HEMOLIV+</a></h3>
             <h1 class="lt1">
               <span>TRATAMIENTO EFICAZ DE LAS HEMORROIDES</span> EN CUALQUIER
               FASE
@@ -126,7 +126,7 @@ $cms->landing( 1686, 3052 ); //topsykey ?>
         <div class="b2_text">
           <h2 class="lt13">
             S&Aacute;LVESE<br />DE LA ENFERMEDAD<br /><span
-              >DE UNA VEZ POR TODAS</span
+              > DE UNA VEZ POR TODAS</span
             >
           </h2>
           <p class="lt14">
@@ -151,7 +151,9 @@ $cms->landing( 1686, 3052 ); //topsykey ?>
     </div>
     <div class="block3">
       <section class="wrapper">
-        <h2 class="lt17"><span> Hemoliv+ </span> es lo que te ayudar&aacute;</h2>
+        <h2 class="lt17">
+          <span> <a href="">Hemoliv+</a> </span> es lo que te ayudar&aacute;
+        </h2>
         <div class="wrapper_flex">
           <div class="b3_list b3_list1">
             <ul>
@@ -215,7 +217,7 @@ $cms->landing( 1686, 3052 ); //topsykey ?>
           </h2>
           <p class="lt27">
             ¿Recuerda su vida sin hemorroides? Volverá a ella en cuanto empiece
-            a tomar las cápsulas «Hemoliv+».
+            a tomar las cápsulas <a href="">«Hemoliv+»</a>.
           </p>
           <p class="lt28">
             Sin gastos expr&eacute;s en tratamientos proctol&oacute;gicos, sin
@@ -232,9 +234,9 @@ $cms->landing( 1686, 3052 ); //topsykey ?>
     </div>
     <div class="block5">
       <section class="wrapper">
-        <h2 class="lt32">CONTENIDO<span>100%</span> NATURAL</h2>
+        <h2 class="lt32">CONTENIDO <span>100%</span> NATURAL</h2>
         <h3 class="lt33">
-          Hemoliv+ contiene ingredientes naturales que eliminan suavemente las
+          <a href="">Hemoliv+</a> contiene ingredientes naturales que eliminan suavemente las
           molestias y otros s&iacute;ntomas de la enfermedad, al tiempo que
           ejercen un efecto terap&eacute;utico sobre la causa del problema.
         </h3>
@@ -341,7 +343,7 @@ $cms->landing( 1686, 3052 ); //topsykey ?>
               hinchaz&oacute;n, reacciones al&eacute;rgicas.
             </p>
             <p class="lt54">
-              En este sentido, «Hemoliv+» es el tratamiento más eficaz para las
+              En este sentido, <a href="">«Hemoliv+»</a> es el tratamiento más eficaz para las
               hemorroides en cualquier etapa: su fórmula contiene únicamente
               componentes naturales y su absorción es del 99,7%. Las cápsulas no
               presentan efectos secundarios, no provocan reacciones alérgicas y
@@ -349,7 +351,7 @@ $cms->landing( 1686, 3052 ); //topsykey ?>
             </p>
             <p class="lt55">
               Como m&eacute;dico con 20 a&ntilde;os de experiencia en
-              proctolog&iacute;a, recomiendo Hemoliv+ para el tratamiento de las
+              proctolog&iacute;a, recomiendo <a href="">Hemoliv+</a> para el tratamiento de las
               hemorroides en cualquier fase de la enfermedad.
             </p>
           </div>
@@ -366,7 +368,7 @@ $cms->landing( 1686, 3052 ); //topsykey ?>
     </div>
     <div class="block7">
       <section class="wrapper">
-        <h2 class="lt57">VENTAJAS del medicamento Hemoliv+</h2>
+        <h2 class="lt57">VENTAJAS del medicamento <a href="">Hemoliv+</a></h2>
         <div class="b7_plus b7_plus1 wrapper_flex">
           <div>
             <img alt="" src="files/b7_plus1.webp" />
@@ -417,25 +419,37 @@ $cms->landing( 1686, 3052 ); //topsykey ?>
         <h2 class="lt69">COMENTARIOS DE LOS PACIENTES</h2>
         <div class="wrapper_flex reviews">
           <div>
-            <img alt="" src="files/review1.webp" width="52" height="52" style="border-radius: 15px;" />
+            <img
+              alt=""
+              src="files/review1.webp"
+              width="52"
+              height="52"
+              style="border-radius: 15px"
+            />
             <h4 class="lt70">
               Javier Mart&iacute;nez<span>,44 a&ntilde;os:</span>
             </h4>
             <p class="lt71">
-              Compré «Hemoliv+» en este sitio. No tuve ningún efecto secundario.
+              Compré <a href="">«Hemoliv+»</a> en este sitio. No tuve ningún efecto secundario.
               Después de 4 semanas, las hemorroides desaparecieron por completo,
               los bultos se fueron y también se quitó el dolor al ir al baño.
-              Lamento haber tardado tanto en empezar a usar «Hemoliv+» para el
+              Lamento haber tardado tanto en empezar a usar <a href="">«Hemoliv+»</a> para el
               tratamiento.»
             </p>
           </div>
           <div>
-            <img alt="" src="files/review2.webp" width="52" height="52" style="border-radius: 15px;" />
+            <img
+              alt=""
+              src="files/review2.webp"
+              width="52"
+              height="52"
+              style="border-radius: 15px"
+            />
             <h4 class="lt72">
               Carlos Fern&aacute;ndez<span>,36 a&ntilde;os:</span>
             </h4>
             <p class="lt73">
-              «Mi mayor bulto desapareció en sólo un mes de uso de Hemoliv+u dos
+              «Mi mayor bulto desapareció en sólo un mes de uso de <a href="">Hemoliv+</a> u dos
               veces al día. Ya no tengo problemas para ir al baño, no
               experimento ninguna molestia, puedoAhora puedo permanecer sentado
               durante largos periodos de tiempo, lo cual es importante para mí
@@ -443,14 +457,20 @@ $cms->landing( 1686, 3052 ); //topsykey ?>
             </p>
           </div>
           <div>
-            <img alt="" src="files/review3.webp" width="52" height="52" style="border-radius: 15px;" />
+            <img
+              alt=""
+              src="files/review3.webp"
+              width="52"
+              height="52"
+              style="border-radius: 15px"
+            />
             <h4 class="lt74">
               Mar&iacute;a Rodr&iacute;guez<span>, 33 a&ntilde;os:</span>
             </h4>
             <p class="lt75">
               «Un año después de dar a luz, desarrollé un problema tan delicado
               como las hemorroides. Tenía mucho dolor, no podía cuidar bien a mi
-              bebé. Hemoliv+ Me ayudó mucho, las grietas y los nódulos
+              bebé. <a href="">Hemoliv+</a> Me ayudó mucho, las grietas y los nódulos
               desaparecieron.»
             </p>
           </div>
@@ -458,13 +478,14 @@ $cms->landing( 1686, 3052 ); //topsykey ?>
       </section>
     </div>
     <div class="block9">
+      <div id="scrollhere"></div>
       <section class="wrapper">
         <div class="b1_list">
           <header>
-            <h3 class="lt76">CÁPSULAS HEMOLIV+</h3>
+            <h3 class="lt76"><a href="">CÁPSULAS HEMOLIV+</a></h3>
             <h1><span class="lt77">&iexcl;ACABA CON TU SUFRIMIENTO!</span></h1>
             <p class="lt78">
-              Hemoliv+ te librar&aacute;<br />hemorroides para siempre
+              <a href="">Hemoliv+</a> te librar&aacute;<br />hemorroides para siempre
             </p>
           </header>
           <ul>

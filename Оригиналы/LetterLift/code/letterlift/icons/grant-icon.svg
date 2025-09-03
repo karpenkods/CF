@@ -1,0 +1,28 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Money bag -->
+  <path d="M18 16 Q18 12 24 12 Q30 12 30 16 L32 36 Q32 40 24 40 Q16 40 16 36 Z" fill="#37C99E"/>
+  <path d="M18 16 Q18 12 24 12 Q30 12 30 16" stroke="#2BA686" stroke-width="2" fill="none"/>
+  
+  <!-- Dollar sign -->
+  <text x="24" y="30" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="white">$</text>
+  
+  <!-- Rope/tie -->
+  <rect x="22" y="8" width="4" height="8" fill="#37C99E"/>
+  <ellipse cx="24" cy="8" rx="3" ry="2" fill="#B9EADF"/>
+  
+  <!-- Grant certificate -->
+  <rect x="6" y="20" width="12" height="16" rx="1" fill="white" stroke="#37C99E" stroke-width="1.5"/>
+  <rect x="8" y="22" width="8" height="1.5" fill="#37C99E"/>
+  <rect x="8" y="25" width="6" height="1" fill="#B9EADF"/>
+  <rect x="8" y="27" width="7" height="1" fill="#B9EADF"/>
+  <rect x="8" y="29" width="5" height="1" fill="#B9EADF"/>
+  
+  <!-- Approval stamp -->
+  <circle cx="14" cy="32" r="2" fill="#37C99E"/>
+  <path d="M12.5 32 L13.5 33 L15.5 31" stroke="white" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Funding arrows -->
+  <path d="M34 20 L38 16 L36 14 L38 16 L36 18" stroke="#37C99E" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M34 28 L38 24 L36 22 L38 24 L36 26" stroke="#37C99E" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - LetterLift</title>
+    <link rel="icon" type="image/svg+xml" href="icons/favicon.svg">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/checkout.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="icons/logo.svg" alt="LetterLift" class="logo-img">
+                    </a>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#how-it-works">How It Works</a></li>
+                        <li><a href="index.html#benefits">Benefits</a></li>
+                        <li><a href="index.html#pricing">Pricing</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </nav>
+                <div class="header-cta">
+                    <a href="index.html#pricing" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Checkout Content -->
+    <main class="checkout-page">
+        <div class="container">
+            <div class="checkout-header">
+                <a href="index.html#pricing" class="back-link">&larr; Back to Pricing</a>
+                <h1 class="checkout-title">Complete Your Order</h1>
+                <p class="checkout-subtitle">Securely enter your details to finalize your purchase</p>
+            </div>
+
+            <div class="checkout-grid">
+                <!-- Left Column: Order Summary -->
+                <div class="order-summary-container">
+                    <div class="summary-header">
+                        <img src="icons/star-icon.svg" alt="Star" class="summary-icon">
+                        <h2>Order Summary</h2>
+                    </div>
+                    <div class="summary-body">
+                        <div class="plan-details">
+                            <h3 id="plan-name">[Plan Name]</h3>
+                            <p id="plan-price">$[0.00]</p>
+                        </div>
+                        <p class="plan-description-summary">Access to premium templates and AI-powered writing assistance.</p>
+                        <hr>
+                        <div class="total-section">
+                            <h4>Total:</h4>
+                            <h4 id="total-amount">$[0.00]</h4>
+                        </div>
+                    </div>
+                    <div class="summary-footer">
+                        <div class="security-info">
+                            <img src="icons/shield-icon.svg" alt="Shield">
+                            <p>Will appear as "letterlift.com" on your statement</p>
+                        </div>
+                        <div class="security-info">
+                            <img src="icons/lock-icon.svg" alt="Lock">
+                            <p>Secure 256-bit SSL encryption</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Shipping & Payment -->
+                <div class="payment-form-container">
+                    <form id="checkout-form">
+                        <!-- Shipping Information -->
+                        <div class="form-section">
+                            <div class="form-section-header">
+                                <img src="icons/shield-icon.svg" alt="Shield">
+                                <h3>Shipping Information</h3>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group half-width">
+                                    <label for="first-name">First Name *</label>
+                                    <input type="text" id="first-name" required>
+                                </div>
+                                <div class="form-group half-width">
+                                    <label for="last-name">Last Name *</label>
+                                    <input type="text" id="last-name" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="address1">Address Line 1 *</label>
+                                <input type="text" id="address1" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="address2">Address Line 2</label>
+                                <input type="text" id="address2">
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group half-width">
+                                    <label for="postal-code">Postal Code *</label>
+                                    <input type="text" id="postal-code" required>
+                                </div>
+                                <div class="form-group half-width">
+                                    <label for="city">City *</label>
+                                    <input type="text" id="city" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group half-width">
+                                    <label for="state">State/Region *</label>
+                                    <select id="state" required></select>
+                                </div>
+                                <div class="form-group half-width">
+                                    <label for="country">Country *</label>
+                                    <input type="text" id="country" value="USA" disabled>
+                                </div>
+                            </div>
+                             <div class="form-row">
+                                <div class="form-group half-width">
+                                    <label for="phone">Phone *</label>
+                                    <input type="tel" id="phone" required>
+                                </div>
+                                <div class="form-group half-width">
+                                    <label for="email">Email *</label>
+                                    <input type="email" id="email" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Billing Information Checkbox -->
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="same-as-shipping" checked>
+                            <label for="same-as-shipping">Billing address is the same as shipping address</label>
+                        </div>
+
+                        <!-- Billing Information (hidden by default) -->
+                        <div id="billing-info-section" class="form-section hidden">
+                            <div class="form-section-header">
+                                <img src="icons/shield-icon.svg" alt="Shield">
+                                <h3>Billing Information</h3>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group half-width">
+                                    <label for="billing-first-name">Billing First Name *</label>
+                                    <input type="text" id="billing-first-name">
+                                </div>
+                                <div class="form-group half-width">
+                                    <label for="billing-last-name">Billing Last Name *</label>
+                                    <input type="text" id="billing-last-name">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="billing-address1">Billing Address Line 1 *</label>
+                                <input type="text" id="billing-address1">
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group half-width">
+                                    <label for="billing-postal-code">Billing Postal Code *</label>
+                                    <input type="text" id="billing-postal-code">
+                                </div>
+                                <div class="form-group half-width">
+                                    <label for="billing-city">Billing City *</label>
+                                    <input type="text" id="billing-city">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group half-width">
+                                    <label for="billing-state">Billing State/Region *</label>
+                                    <select id="billing-state"></select>
+                                </div>
+                                <div class="form-group half-width">
+                                    <label for="billing-country">Billing Country *</label>
+                                    <input type="text" id="billing-country" value="USA" disabled>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Payment Information -->
+                        <div class="form-section">
+                            <div class="form-section-header">
+                                <img src="icons/card-icon.svg" alt="Card">
+                                <h3>Payment Information</h3>
+                            </div>
+                            <div class="accepted-cards">
+                                <p>We accept:</p>
+                                <div class="card-logos">
+                                    <img src="icons/visa-icon.svg" alt="Visa">
+                                    <img src="icons/mastercard-icon.svg" alt="Mastercard">
+                                    <img src="icons/amex-icon.svg" alt="American Express">
+                                    <img src="icons/discover-icon.svg" alt="Discover">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="card-number">Card Number *</label>
+                                <input type="text" id="card-number" required>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group third-width">
+                                    <label for="card-month">Month *</label>
+                                    <select id="card-month" required></select>
+                                </div>
+                                <div class="form-group third-width">
+                                    <label for="card-year">Year *</label>
+                                    <select id="card-year" required></select>
+                                </div>
+                                <div class="form-group third-width">
+                                    <label for="cvv">CVV Code *</label>
+                                    <input type="text" id="cvv" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <!-- Agreement Checkboxes -->
+                        <div class="form-group checkbox-group agreement-group">
+                            <input type="checkbox" id="age-certify" required>
+                            <label for="age-certify">I certify that I am at least 18 years old and agree to provide my information.</label>
+                        </div>
+                        <div class="form-group checkbox-group agreement-group">
+                            <input type="checkbox" id="terms-agree" required>
+                            <label for="terms-agree">I agree to the <a href="terms-of-service.html" target="_blank">Terms of Service</a>, <a href="privacy-policy.html" target="_blank">Privacy Policy</a>, <a href="cookie-policy.html" target="_blank">Cookie Policy</a>, and <a href="refund-policy.html" target="_blank">Refund Policy</a>.</label>
+                        </div>
+                        <div class="form-group checkbox-group agreement-group">
+                            <input type="checkbox" id="charge-agree" required>
+                            <label for="charge-agree">I agree to be charged <span id="charge-amount">$[0.00]</span> for the <span id="charge-plan-name">[Plan Name]</span>.</label>
+                        </div>
+
+                        <!-- Payment Button -->
+                        <button type="submit" id="pay-button" class="btn btn-primary btn-large btn-block">Pay $[0.00] Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="icons/logo.svg" alt="LetterLift" class="footer-logo">
+                    <p class="footer-slogan">Professional letters made simple</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Links</h4>
+                        <ul>
+                            <li><a href="index.html#home">Home</a></li>
+                            <li><a href="index.html#how-it-works">How It Works</a></li>
+                            <li><a href="index.html#benefits">Benefits</a></li>
+                            <li><a href="index.html#pricing">Pricing</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                            <li><a href="terms-of-service.html">Terms of Service</a></li>
+                            <li><a href="cookie-policy.html">Cookie Policy</a></li>
+                            <li><a href="refund-policy.html">Refund Policy</a></li>
+                            <li><a href="cancel-subscription.html">Cancel Subscription</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="mailto:support@example.com">support@example.com</a></li>
+                            <li><a href="tel:+18001234567">+1 (800) 123-4567</a></li>
+                            <li>1230 Rosecrans Ave Suite 300<br>Manhattan Beach, CA 90266</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 LetterLift. All rights reserved.</p>
+                <p>LetterLift is a service of Noventra Consulting Group</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Pop-up Modal -->
+    <div id="payment-success-modal" class="modal">
+        <div class="modal-content">
+            <h3>Payment Successful!</h3>
+            <p>Your purchase has been confirmed. Thank you for choosing LetterLift!</p>
+            <button class="btn btn-primary modal-close">OK</button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/checkout.js"></script>
+</body>
+</html>
+

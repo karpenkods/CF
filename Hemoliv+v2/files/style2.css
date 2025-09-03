@@ -63,7 +63,7 @@ h2 {
   line-height: 1.2;
 }
 a {
-  color: #fff;
+  color: inherit;
   text-decoration: none;
 }
 .wrapper {
@@ -248,7 +248,7 @@ a {
 }
 .product_pic {
   position: absolute;
-  top: -300px;
+  top: -50px;
   right: -250px;
   width: 400px;
 }
@@ -515,6 +515,7 @@ form select {
   margin: 30px auto 45px;
 }
 .ingr {
+  height: 760px;
   max-width: 350px;
   border: 2px solid #f8cccf;
   padding: 0 0 20px;
@@ -650,6 +651,7 @@ form select {
   justify-content: space-between;
 }
 .reviews div {
+  flex-basis: 33%;
   padding: 30px;
   border: 2px solid #f8cccf;
   margin: 15px;

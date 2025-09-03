@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cancel Subscription - LetterLift</title>
+    <link rel="icon" type="image/svg+xml" href="icons/favicon.svg">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- GDPR Banner -->
+    <div id="gdpr-banner" class="gdpr-banner">
+        <div class="gdpr-content">
+            <p>We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.</p>
+            <div class="gdpr-buttons">
+                <button id="accept-all" class="gdpr-btn accept">Accept All</button>
+                <button id="customize" class="gdpr-btn customize">Customize</button>
+                <button id="reject-all" class="gdpr-btn reject">Reject All</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="icons/logo.svg" alt="LetterLift" class="logo-img">
+                    </a>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#how-it-works">How It Works</a></li>
+                        <li><a href="index.html#benefits">Benefits</a></li>
+                        <li><a href="index.html#pricing">Pricing</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </nav>
+                <div class="header-cta">
+                    <a href="index.html#pricing" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Cancel Subscription Content -->
+    <main class="cancel-page">
+        <section class="cancel-hero">
+            <div class="container">
+                <div class="section-header">
+                    <h1 class="section-title">Cancel Subscription</h1>
+                    <p class="section-subtitle">We're sorry to see you go</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cancel-content">
+            <div class="container">
+                <div class="cancel-container">
+                    
+                    <div class="cancel-message">
+                        <p>We understand that circumstances change, and we respect your decision to cancel your LetterLift subscription. Before you go, we'd love to hear about your experience and see if there's anything we can do to improve our service.</p>
+                        
+                        <p>Please fill out the form below to process your cancellation request. Our team will review your request and confirm the cancellation within 24 hours.</p>
+                    </div>
+
+                    <div class="cancel-form-container">
+                        <!-- Cancellation Form -->
+                        <div class="cancel-form-wrapper">
+                            <form class="cancel-form" id="cancel-form">
+                                <h3>Cancellation Request</h3>
+                                <div class="form-group">
+                                    <label for="cancel-name">Name *</label>
+                                    <input type="text" id="cancel-name" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="cancel-email">Email *</label>
+                                    <input type="email" id="cancel-email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="cancel-phone">Phone Number *</label>
+                                    <input type="tel" id="cancel-phone" name="phone" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="cancel-message">Message</label>
+                                    <textarea id="cancel-message" name="message" rows="6" placeholder="Please let us know why you're canceling and how we can improve our service..."></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-large">Submit Cancellation Request</button>
+                            </form>
+                        </div>
+
+                        <!-- Contact Information -->
+                        <div class="cancel-info-wrapper">
+                            <div class="cancel-info-section">
+                                <h3>Need Help?</h3>
+                                <p>If you're experiencing issues with our service or have questions about your subscription, our support team is here to help. You can reach us through any of the following methods:</p>
+                                
+                                <div class="contact-details">
+                                    <div class="contact-item">
+                                        <div class="contact-icon">
+                                            <img src="icons/email-icon.svg" alt="Email">
+                                        </div>
+                                        <div class="contact-text">
+                                            <h4>Email Support</h4>
+                                            <a href="mailto:support@example.com">support@example.com</a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="contact-item">
+                                        <div class="contact-icon">
+                                            <img src="icons/phone-icon.svg" alt="Phone">
+                                        </div>
+                                        <div class="contact-text">
+                                            <h4>Phone Support</h4>
+                                            <a href="tel:+18001234567">+1 (800) 123-4567</a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="contact-item">
+                                        <div class="contact-icon">
+                                            <img src="icons/clock-icon.svg" alt="Hours">
+                                        </div>
+                                        <div class="contact-text">
+                                            <h4>Support Hours</h4>
+                                            <p>Monday to Friday, 9AM to 6PM EST</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="contact-item">
+                                        <div class="contact-icon">
+                                            <img src="icons/location-icon.svg" alt="Location">
+                                        </div>
+                                        <div class="contact-text">
+                                            <h4>Mailing Address</h4>
+                                            <p>1230 Rosecrans Ave Suite 300<br>Manhattan Beach, CA 90266</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="alternative-options">
+                                    <h4>Before You Cancel</h4>
+                                    <p>Consider these alternatives that might address your concerns:</p>
+                                    <ul>
+                                        <li>Downgrade to a lower-tier plan</li>
+                                        <li>Pause your subscription temporarily</li>
+                                        <li>Contact support for personalized assistance</li>
+                                        <li>Explore our extensive help documentation</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="icons/logo.svg" alt="LetterLift" class="footer-logo">
+                    <p class="footer-slogan">Professional letters made simple</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Links</h4>
+                        <ul>
+                            <li><a href="index.html#home">Home</a></li>
+                            <li><a href="index.html#how-it-works">How It Works</a></li>
+                            <li><a href="index.html#benefits">Benefits</a></li>
+                            <li><a href="index.html#pricing">Pricing</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                            <li><a href="terms-of-service.html">Terms of Service</a></li>
+                            <li><a href="cookie-policy.html">Cookie Policy</a></li>
+                            <li><a href="refund-policy.html">Refund Policy</a></li>
+                            <li><a href="cancel-subscription.html">Cancel Subscription</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="mailto:support@example.com">support@example.com</a></li>
+                            <li><a href="tel:+18001234567">+1 (800) 123-4567</a></li>
+                            <li>1230 Rosecrans Ave Suite 300<br>Manhattan Beach, CA 90266</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 LetterLift. All rights reserved.</p>
+                <p>LetterLift is a service of Noventra Consulting Group</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Pop-up Modals -->
+    <div id="cancel-success-modal" class="modal">
+        <div class="modal-content">
+            <h3>Cancellation Submitted</h3>
+            <p>Your subscription has been canceled</p>
+            <button class="btn btn-primary modal-close">Close</button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Cancel form handling
+        document.getElementById('cancel-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const name = formData.get('name');
+            const email = formData.get('email');
+            const phone = formData.get('phone');
+            const message = formData.get('message');
+            
+            // Basic validation
+            if (!name || !email || !phone) {
+                alert('Please fill in all required fields.');
+                return;
+            }
+            
+            // Email validation
+            if (!window.LetterLift.validateEmail(email)) {
+                alert('Please enter a valid email address.');
+                return;
+            }
+            
+            // Phone validation
+            if (!window.LetterLift.validatePhone(phone)) {
+                alert('Please enter a valid phone number.');
+                return;
+            }
+            
+            // Simulate form submission
+            setTimeout(() => {
+                window.LetterLift.showModal('cancel-success-modal');
+                this.reset();
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
+
